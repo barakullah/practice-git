@@ -1,0 +1,2 @@
+--------------for cloning git folder we use following command:
+git clone https://github.com/barakullah/practice-git.git
