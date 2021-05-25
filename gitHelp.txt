@@ -1,2 +1,36 @@
 --------------for cloning git folder we use following command:
 git clone https://github.com/barakullah/practice-git.git
+
+-------------for adding all the files in github that are updated by us in vs code
+
+git add .
+
+-----------after applying changes ad adding them to github we use the commit commad to commit those changes with some title and description
+
+git commit -m "title" -m "description" 
+
+-----------after commiting we use git push command to push our code to server
+
+git push -u origin master
+
+///////////////////////////////////Adding a local folder to git//////////////
+--cd folder
+--git init
+--and then same commands git add,commit
+after that we need to create an empty folder i.e repo in github and copy its key 
+--git remote add origin {key}
+--git push -u origin master
+
+///////////////////git branching///////////////////
+branchiing concept is used when suppose we want to add  new feature in our app without disturbung the original app then we will
+commit the changes in the branch 
+
+-git branch
+-git checkout-b {name}
+git checkout is used to switch between the branches
+---now to merge the changes we use this command
+-git merge {name}
+---now to push this branch to the live github
+=git push -u {name}
+
+---after this you can pull this feature branch in the master branch by creating the pull request in github web and then we merge this pr=pull request
